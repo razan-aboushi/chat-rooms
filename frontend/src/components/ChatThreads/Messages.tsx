@@ -2,7 +2,7 @@
 import React from 'react';
 import TopBar from './TopBar';
 import MessageList from './MessageList';
-import MessageInp from './MessageInp';
+import MessageInput from './MessageInput';
 import {useSelectedUser} from '@/store/userStore';
 
 const Messages = () => {
@@ -13,7 +13,7 @@ const Messages = () => {
             <TopBar selectedUser={selectedUser}/>
             <div className={`max-w-sm md:max-w-3xl w-full mx-auto mt-auto mb-10 ${selectedUser ? "" : "md:hidden"}`}>
                 <MessageList/>
-                <MessageInp/>
+                <MessageInput/>
             </div>
         </div>
     )

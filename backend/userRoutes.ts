@@ -1,8 +1,7 @@
 import {Request, Response, Router} from "express";
-
 const jwt = require("jsonwebtoken");
-import {User} from "./userModel";
 import "dotenv/config";
+import {User} from "./userModel";
 
 const router = Router();
 

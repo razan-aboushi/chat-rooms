@@ -1,6 +1,6 @@
 "use client"
 import React, {useEffect} from 'react';
-import {fetchMessages} from '@/lib/fetchers'
+import {fetchMessages} from '@/lib/fetchersFunctions'
 import {useMessages, useSelectedUser, useUser} from '@/store/userStore'
 import {useAutoAnimate} from '@formkit/auto-animate/react';
 import {shallow} from 'zustand/shallow';
@@ -27,12 +27,10 @@ const MessageList = () => {
 
     return (
         <div ref={parent} className='w-full mb-10 flex flex-col max-h-[75vh] overflow-auto no-scrollbar'>
-            {
-                messages ?
+            {messages ?
                     messages.map((item: any, i: number) => (
                         <MessageItem key={i} user={sender.email == item.sender} message={item.message}/>
-                    )) : ""
-            }
+             )) : ""}
         </div>
     )
 }

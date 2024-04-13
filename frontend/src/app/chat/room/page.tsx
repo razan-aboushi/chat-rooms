@@ -12,7 +12,7 @@ import {useEffect, useState} from "react";
 import {Track} from "livekit-client";
 import {useUser} from "@/store/userStore";
 
-export default function Page() {
+const ChatRoomPage = () => {
     const myUser = useUser((state) => state.myUser);
     const room = "quickstart-room";
     const name = myUser?.name;
@@ -68,3 +68,5 @@ function MyVideoConference() {
         </GridLayout>
     );
 }
+
+export default ChatRoomPage;

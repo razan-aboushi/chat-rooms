@@ -12,7 +12,7 @@ const Picker = dynamic(
     },
     {ssr: false}
 )
-const MessageInp = () => {
+const MessageInput = () => {
     const [inpValue, setInpValue] = useState<string>("");
     const [showEmojis, setShowEmojis] = useState<boolean>(false);
     const selectedUser = useSelectedUser((state) => state.selectedUser);
@@ -60,4 +60,4 @@ const MessageInp = () => {
     );
 }
 
-export default MessageInp;
+export default MessageInput;

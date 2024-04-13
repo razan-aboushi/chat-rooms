@@ -1,17 +1,17 @@
 import mongoose from "mongoose";
 
-const userSchema = new mongoose.Schema({
+const userChatSchema = new mongoose.Schema({
     name: String,
     imageId: String,
-    email: { type: String, unique: true },
+    email: {type: String, unique: true},
     messages: [
         {
             message: String,
             sender: String,
             receiver: String,
-            time:Date
+            time: Date
         }
     ]
-})
+});
 
-export const User = mongoose.model("User", userSchema, "chatgram_users");
+export const User = mongoose.model("User", userChatSchema, "chatgram_users");

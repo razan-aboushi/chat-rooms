@@ -34,7 +34,6 @@ export function SmileFaceIcon() {
   );
 }
 
-// Chat-Threads > TopBar.tsx
 export function PhoneIcon() {
   return (
     <svg

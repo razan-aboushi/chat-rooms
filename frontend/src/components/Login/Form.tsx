@@ -4,7 +4,7 @@ import {useRouter} from 'next/navigation';
 import {io} from "socket.io-client";
 import {useCookies} from 'react-cookie';
 import Avatar from './Avatar'
-import {handleSubmit} from '@/lib/fetchers';
+import {handleSubmit} from '@/lib/fetchersFunctions';
 
 const Form = () => {
     const [avatarId, setAvatarId] = useState((Math.random() * 20).toFixed());

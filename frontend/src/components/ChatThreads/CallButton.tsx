@@ -1,12 +1,12 @@
 "use client"
+import React from 'react';
 import {useSelectedUser, useUser} from '@/store/userStore';
 import {PhoneIcon} from '@/utilities/icons'
 import {useRouter} from 'next/navigation'
-import React from 'react';
 import {useCookies} from 'react-cookie';
 import {io} from "socket.io-client";
 
-const CallBtn = () => {
+const CallButton = () => {
     const router = useRouter();
     const socket = io("http://localhost:4000");
     const [cookie] = useCookies(["user"]);
@@ -30,4 +30,4 @@ const CallBtn = () => {
     )
 }
 
-export default CallBtn;
+export default CallButton;

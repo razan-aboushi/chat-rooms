@@ -1,5 +1,5 @@
 "use client"
-import {fetchUsers} from '@/lib/fetchers';
+import {fetchUsers} from '@/lib/fetchersFunctions';
 import {useAllUsers} from '@/store/userStore';
 import {userProps} from '@/types'
 import React, {useEffect} from 'react'

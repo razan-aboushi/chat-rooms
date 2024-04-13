@@ -1,8 +1,8 @@
 import React from 'react';
-import Messages from '@/components/Chat-Threads/Messages';
+import Messages from '@/components/ChatThreads/Messages';
 import Sidebar from '@/components/SideBar/Sidebar';
 
-const page = () => {
+const Chat = () => {
     return (
         <div className='min-h-screen'>
             <div className='mx-auto flex'>
@@ -13,4 +13,4 @@ const page = () => {
     )
 }
 
-export default page;
+export default Chat;
