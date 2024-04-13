@@ -1,4 +1,4 @@
-# [Chat with Next.js 13, Express, and MongoDB]
+# Chat with Next.js 13, Express, and MongoDB
 
 Welcome to Simple Chat! This app uses Next.js 13 for the website, Express for the server, and MongoDB for saving chats. Follow these steps to begin.
 
@@ -20,7 +20,7 @@ Welcome to Simple Chat! This app uses Next.js 13 for the website, Express for th
 2. Navigate to the project directory and install the required dependencies for both frontend and backend:
 
     ```bash
-    cd telegram-clone
+    cd chat-rooms
     npm install
     ```
 
