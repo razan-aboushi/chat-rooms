@@ -1,6 +1,6 @@
-# [Chat with Next.js 13, Express, and MongoDB](https://www.youtube.com/@YTCodewithAli)
+# [Chat with Next.js 13, Express, and MongoDB]
 
-Welcome to the simple chat project! This application aims to replicate the core functionalities of chat using Next.js 13 for the frontend, Express for the backend, and MongoDB for database storage. Follow the steps below to get started.
+Welcome to Simple Chat! This app uses Next.js 13 for the website, Express for the server, and MongoDB for saving chats. Follow these steps to begin.
 
 ## Features
 - **User Registration and Authentication:** Securely register and authenticate users.
@@ -13,7 +13,7 @@ Welcome to the simple chat project! This application aims to replicate the core 
 1. Open your terminal and run the following command to clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/telegram-clone.git
+    git clone https://github.com/razan-aboushi/chat-rooms.git
     ```
 
 ### Install Dependencies
